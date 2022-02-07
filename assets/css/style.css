@@ -1,5 +1,39 @@
+/* @import url('https://fonts.googleapis.com/............'); */
+
+
+
 * { 
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* heading and logo */
+
+header {
+    background-color: #97afa3;
+    height: 150px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#navigation-bar {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#navigation-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
