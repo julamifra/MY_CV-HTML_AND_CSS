@@ -22,11 +22,10 @@ header {
 
 
 #logo {
-    /* background-color: blue; */
 
     float: left;
     font-size: 450%;
-    margin: auto 0 auto 30px;
+    margin: 16px 0 auto 30px;
     color: #fafafa;
 }
 
@@ -46,15 +45,14 @@ header {
 }
 
 
-/* #nav-bar, #logo {
-    line-height: 75px;
-} */
-
-
 #nav-bar li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
+}
+
+#nav-bar li:first-child {
+    margin-right: 0;
 }
 
 
@@ -62,4 +60,55 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+
+
+/* introduction me section: img and text */
+
+#introduction {
+    height: 500px;
+    width: 100%;
+
+}
+
+#introduction-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/coffee-laptop-desk-image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    position: relative;
+    animation-timing-function: ease;
+}
+
+ /* creates the level of zoom fo hero image */
+
+@keyframes hero-zoom {
+    from {top: 100px;}
+    to {top: 0px;}
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Lato, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+
+    padding-left: 30px;
+
+    position: relative;
+    bottom: 160px;
+    
 }
