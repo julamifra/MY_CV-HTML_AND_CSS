@@ -1,7 +1,6 @@
 /* @import url('https://fonts.googleapis.com/............'); */
 
 
-
 * { 
     margin: 0;
     padding: 0;
@@ -18,22 +17,49 @@ body {
 
 header {
     background-color: #97afa3;
-    height: 150px;
+    height: 120px;
 }
+
 
 #logo {
+    /* background-color: blue; */
+
     float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    font-size: 450%;
+    margin: auto 0 auto 30px;
+    color: #fafafa;
 }
 
-#navigation-bar {
+#nav-bar {
+    background-color: white;
+
+    float: right;
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    color: black;
+    border: solid black 3px;
+    padding: 10px;
+
+    position: relative;
+    top: 100px;
+    right: 50px;
 }
 
-#navigation-bar li {
+
+/* #nav-bar, #logo {
+    line-height: 75px;
+} */
+
+
+#nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
+}
+
+
+#nav-bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
 }
