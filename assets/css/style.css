@@ -10,6 +10,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    letter-spacing: 3px;
     color: #3a3a3a;
 }
 
@@ -22,10 +23,9 @@ header {
 
 
 #logo {
-
     float: left;
-    font-size: 450%;
-    margin: 16px 0 auto 30px;
+    font-size: 420%;
+    margin: 16px 0 auto 80px;
     color: #fafafa;
 }
 
@@ -40,7 +40,7 @@ header {
     padding: 10px;
 
     position: relative;
-    top: 100px;
+    top: 95px;
     right: 50px;
 }
 
@@ -76,39 +76,62 @@ header {
 /* introduction me section: img and text */
 
 #introduction {
-    height: 500px;
+    height: 600px;
     width: 100%;
+    z-index: -1;
 
+    position: relative;
 }
 
 #introduction-image {
     height: 500px;
     width: 100%;
-    background: url('../images/coffee-laptop-desk-image.jpg') no-repeat center center;
-
+    background: url('../images/image-introduction.jpg') no-repeat center center;
+    
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 3s;
     position: relative;
     animation-timing-function: ease;
+    
+    top: 40px;
+    z-index: -1;
+
 }
 
  /* creates the level of zoom fo hero image */
 
 @keyframes hero-zoom {
-    from {top: 100px;}
-    to {top: 0px;}
+    /* from {right: 200px;}
+    to {right: 0px;} */
+    from {top: 120px;}
+    to {top: 40;}
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 140%;
+    font-weight: 900;
     font-family: Lato, sans-serif;
     letter-spacing: 2px;
+    line-height: 1.5;
     color: white;
+    /* color: #97afa3; */
 
-    padding-left: 30px;
+    background-color: rgba(151, 175, 163, .7);
+    width: 300;
+    height: 100px;
+    text-align: center;
 
-    position: relative;
-    bottom: 160px;
+
+    /* padding-left: 30px; */
+    padding: 10px;
+
+    position: absolute;
+    bottom: 220px;
+    right: 40px;
+
+    /* -webkit-text-stroke: 0.5px black;  */
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+     /* width and color */
     
 }
