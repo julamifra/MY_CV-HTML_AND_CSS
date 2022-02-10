@@ -10,7 +10,8 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 1.5;
     color: #3a3a3a;
 }
 
@@ -71,8 +72,6 @@ header {
 }
 
 
-
-
 /* introduction me section: img and text */
 
 #introduction {
@@ -102,8 +101,6 @@ header {
  /* creates the level of zoom fo hero image */
 
 @keyframes hero-zoom {
-    /* from {right: 200px;}
-    to {right: 0px;} */
     from {top: 120px;}
     to {top: 40;}
 }
@@ -115,23 +112,108 @@ header {
     letter-spacing: 2px;
     line-height: 1.5;
     color: white;
-    /* color: #97afa3; */
 
     background-color: rgba(151, 175, 163, .7);
     width: 300;
     height: 100px;
     text-align: center;
 
-
-    /* padding-left: 30px; */
     padding: 10px;
 
     position: absolute;
     bottom: 220px;
     right: 40px;
+}
 
-    /* -webkit-text-stroke: 0.5px black;  */
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-     /* width and color */
-    
+/* about me section */
+
+#about-me-section {
+    height: 600px;
+    margin: 10px 10%;
+}
+
+#left-about-me {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+
+#right-studies {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 20px 0 100px;
+}
+
+
+#left-about-me > h2, #right-studies > h2 {
+    font-size: 200%;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+
+#left-about-me p {
+    margin-top: 40px;
+}
+
+.primary-list {
+    list-style-type: none;
+    margin-top: 40px;
+
+}
+
+.primary-list > li {
+    margin-bottom: 20px;
+}
+
+.secondary-list {
+    margin-top: 10px;
+
+}
+.secondary-list > li {
+    margin-left: 20px;
+}
+
+.small {
+    color: rgb(48, 47, 47);
+}
+
+.primary-list > li:first-child:before {    
+    font-family: 'FontAwesome';
+    content: '\f19d';
+    margin:0 5px 0 -15px;
+}
+
+.primary-list > li:last-child:before {    
+    font-family: 'FontAwesome';
+    content: '\f121';
+    margin:0 5px 0 -15px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 70%;
+    margin: 30px auto;
+    /* clear: both; */
+}
+
+
+/* work experience section */
+
+
+#experience-section {
+    height: 600px;
+    background-color: #97afa3;
+}
+
+#abilities-section {
+    height: 600px;
+}
+
+footer {
+    height: 200px;
+    background-color: #97afa3;
 }
