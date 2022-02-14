@@ -125,7 +125,7 @@ header {
 
     background-color: rgba(151, 175, 163, .7);
     width: 300;
-    height: 100px;
+    height: auto;
     text-align: center;
 
     padding: 10px;
@@ -346,6 +346,7 @@ footer {
     box-sizing: border-box;
     text-align: center;
 }
+
 footer a {
     text-decoration: none;
 }
@@ -383,4 +384,83 @@ footer a {
     color: white;
     font-size: 150%;
 
+}
+
+@media screen and (max-width: 1200px) { 
+   body {
+       /* background-color: red; */
+   } 
+}
+@media screen and (max-width: 950px) { 
+
+
+    #introduction, #about-me-section, #work-experience-section, #abilities-section {
+        height: auto;
+    }
+
+
+    #cover-text {
+        position: absolute;
+        bottom: 5px;
+        right: 0;
+    }
+    #left-about-me, #right-studies, #left-ability-section, #right-ability-section {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #work-experience-image {
+        display: none;
+    } 
+
+    
+    #right-work-experience {
+        width: 100%;
+        float: left;
+        height: auto;
+        background-color: #97afa3;
+
+    }
+
+    .ability-card {
+        margin: 5px 0;
+    }
+    
+    #left-ability-section, #right-ability-section {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .social-footer, .contacts-footer {
+        float: left;
+        width: 100%;
+    }
+    
+    .social-footer > ul > li > a > i {
+        font-size: 150%;
+        margin: 1%;
+        padding: 0;
+    }
+    
+    .contacts-footer ul {
+        margin: 1%;
+    }
+    .contacts-footer li {
+        margin: 1%;
+        padding: 0;
+    }
+  
+
+}
+@media screen and (max-width: 900px) { 
+    #nav-bar li {
+        float: none;
+        margin-right: 0;
+    }
+    #nav-bar { display: flex; flex-direction: column; }
+    #nav-bar li:nth-child(1) { order: 4; }
+    #nav-bar li:nth-child(2) { order: 3; }
+    #nav-bar li:nth-child(3) { order: 2; }
+    #nav-bar li:nth-child(4) { order: 1; }
 }
