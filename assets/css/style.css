@@ -208,7 +208,7 @@ header {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 70%;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 
@@ -243,12 +243,16 @@ hr {
 #right-work-experience {
     width: 60%;
     float: right;
+    height: 600px;
+
 }
 
 #work-experience-text {
     padding: 20px 20px;
     overflow: auto;
-    height: calc(600px - 40px);
+    /* height: auto; */
+    height: calc(100% - 40px);
+    text-align: justify;
 }
 
 
@@ -266,8 +270,6 @@ hr {
     font-size: 120%;
 }
 #work-experience-text li a {
-    /* text-decoration: none; */
-    /* color: black; */
     font-style: italic;
 }
 #work-experience-text li p:first-child {
@@ -282,9 +284,61 @@ hr {
     height: 600px;
 }
 
+#ability-box {
+    margin: 40px auto;
+}
+
+#left-ability-section {
+    float: left;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+#right-ability-section {
+    float: right;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.ability-card {
+    width: 100%;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.ability-card ul {
+    /* list-style-type: none; */
+    list-style-type: circle;
+    margin-left: 30px;
+    font-size: 120%;
+}
+
+.ability-card li {
+    line-height: 1.5;
+}
+
+.ability-card h3 {
+    text-align: center;
+    margin: 15px;
+    font-size: 140%;
+}
+
+.ability-card h4 {
+
+} 
+
 /* footer */
 
 footer {
     height: 200px;
+    width: 100%;
     background-color: #97afa3;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
 }
