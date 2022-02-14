@@ -218,10 +218,9 @@ hr {
     height: 600px;
     background-color: #97afa3;
     line-height: 1.6;
-
 }
 
- #work-experience-image {
+#work-experience-image {
     height: 100%;
     width: 40%;
     background: url('../images/work-experience.jpg') no-repeat center center;
@@ -247,19 +246,31 @@ hr {
 }
 
 #work-experience-text {
-    padding: 40px 20px;
+    padding: 20px 20px;
+    overflow: auto;
+    height: calc(600px - 40px);
 }
 
 
 #work-experience-text ul {
     list-style-type: none;
     margin-top: 10px;
-
 }
 #work-experience-text li {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-#work-experience-text  li  p:first-child {
+#work-experience-text li p u {
+    color: white;
+}
+#work-experience-text li p:first-child b {
+    font-size: 120%;
+}
+#work-experience-text li a {
+    /* text-decoration: none; */
+    /* color: black; */
+    font-style: italic;
+}
+#work-experience-text li p:first-child {
     margin-bottom: 10px;
 }
 
