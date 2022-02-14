@@ -254,7 +254,6 @@ hr {
 #work-experience-text {
     padding: 20px 20px;
     overflow: auto;
-    /* height: auto; */
     height: calc(100% - 40px);
     text-align: justify;
 }
@@ -344,7 +343,6 @@ footer {
     height: 200px;
     width: 100%;
     background-color: #97afa3;
-    margin-top: 50px;
     position: relative;
     bottom: 0;
 }
@@ -428,6 +426,10 @@ footer a {
     #work-experience-image {
         display: none;
     } 
+
+    #work-experience-text {
+        text-align: left;
+    }
     #work-experience-image-mobile {
         display: block;
         text-align: center;
@@ -438,7 +440,6 @@ footer a {
         float: left;
         height: auto;
         background-color: #97afa3;
-
     }
 
     #abilities-section h2 {
@@ -456,6 +457,10 @@ footer a {
         float: left;
         width: 100%;
         margin-right: 0;
+    }
+
+    footer {
+        padding-top: 40px;
     }
 
     .social-footer, .contacts-footer {
