@@ -240,6 +240,10 @@ hr {
     color: white;
 } 
 
+#work-experience-image-mobile {
+    display: none;
+}
+
 #right-work-experience {
     width: 60%;
     float: right;
@@ -282,6 +286,11 @@ hr {
 
 #abilities-section {
     height: 600px;
+}
+
+#abilities-section h2 {
+    display: inline-block;
+    border-bottom: 2px solid;
 }
 
 #ability-box {
@@ -410,10 +419,19 @@ footer a {
         float: left;
         padding: 0;
     }
+    #left-about-me > h2, #right-studies > h2 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
     #work-experience-image {
         display: none;
     } 
-
+    #work-experience-image-mobile {
+        display: block;
+        text-align: center;
+    }
     
     #right-work-experience {
         width: 100%;
@@ -421,6 +439,13 @@ footer a {
         height: auto;
         background-color: #97afa3;
 
+    }
+
+    #abilities-section h2 {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        border-bottom: 2px solid;
     }
 
     .ability-card {
