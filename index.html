@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Julian Amigo Frances currivulum vitae, CV">
+    <meta name="description" content="Julian Amigo Frances curriculum vitae, CV">
     <meta name="keywords" content="Julian Amigo Frances, CV, web developer, curriculum vitae">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Julian Amigo Frances</title>
@@ -20,13 +20,13 @@
                     <a href="#">contact</a>
                 </li>
                 <li>
-                    <a href="#">abilities</a>
+                    <a href="#abilities-section">abilities</a>
                 </li>
                 <li>
-                    <a href="#">experience</a>
+                    <a href="#work-experience-section">experience</a>
                 </li>
                 <li>
-                    <a href="#" class="active">about me</a>
+                    <a href="#about-me-section" class="active">about me</a>
                 </li>
             </ul>
         </nav>
@@ -38,7 +38,7 @@
             <h3>I am a Full-Stack Web Developer.</h3>
         </div>
     </section>
-    <section id="about-me-section">
+    <section class="container" id="about-me-section">
         <div id="left-about-me">
             <h2>About me <i class="fas fa-user"></i></h2>
             <p>
@@ -70,10 +70,44 @@
     </section>
     <hr>
     
-    <section id="experience-section">
-        <h2>Work experience <i class="fas fa-briefcase"></i></h2>
+    <section id="work-experience-section">
+        <div id="work-experience-image">
+            <h2 id="work-experience-title">Work experience <i class="fas fa-briefcase"></i></h2>
+        </div>
+        <div id="right-work-experience">
+            <div id="work-experience-text" >
+                <ul>
+                    <li>
+                        <p>
+                            <u>SEPT 2018 - DEC 2018:</u> <b>Web Development Intership</b>, Polytechnic University
+                        </p>
+                        <p>
+                            - Intern in the LifeSTech group. Working with Angular 6 framework.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <u>MARCH 2019 - FEB 2021:</u> <b>Software Web Developer (Junior Engineer), </b> NTT Data (Everis)
+                        </p>
+                        <p>
+                            - Consultant in a big international bank, making an internal web page application. Most important technologies used: Angular 7, NodeJs, PostgresSQL, Stencil...
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <u>MARCH 2021 - AUG 2021:</u> <b>Software Web Developer (Senior Engineer), </b> NTT Data (Everis)
+                        </p>
+                        <p>
+                            - I got promoted, getting more responsabilities. I was in charge of the newest junior developers, as well as continuing in my role as web developer.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <section id="abilities-section">
+    <hr>
+
+    <section class="container" id="abilities-section">
         <h2>Abilities <i class="fas fa-tasks"></i></h2>
 
     </section>
@@ -81,7 +115,7 @@
 
     </footer>
 
-    <!-- footer awesome script  -->
+    <!-- fontawesome script  -->
     <script src="https://kit.fontawesome.com/4df69ea9f8.js" crossorigin="anonymous"></script>
 
 </body>

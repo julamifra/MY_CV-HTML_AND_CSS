@@ -15,6 +15,16 @@ body {
     color: #3a3a3a;
 }
 
+h2 {
+    font-size: 200%;
+}
+
+.container {
+    margin: 10px 10%;
+    padding: 10px 20px;
+
+}
+
 /* heading and logo */
 
 header {
@@ -129,15 +139,16 @@ header {
 
 #about-me-section {
     height: 600px;
-    margin: 10px 10%;
 }
+
+
 
 #left-about-me {
     float: left;
     width: 50%;
     box-sizing: border-box;
-    padding: 10px 20px;
     text-align: justify;
+    margin-top: 40px;
 }
 
 
@@ -145,12 +156,13 @@ header {
     float: right;
     width: 50%;
     box-sizing: border-box;
-    padding: 10px 20px 0 100px;
+    padding: 0 20px 0 100px;
+    margin-top: 40px;
+
 }
 
 
 #left-about-me > h2, #right-studies > h2 {
-    font-size: 200%;
     display: inline-block;
     border-bottom: 2px solid black;
 }
@@ -197,21 +209,69 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 70%;
     margin: 30px auto;
-    /* clear: both; */
 }
 
 
 /* work experience section */
 
-
-#experience-section {
+#work-experience-section {
     height: 600px;
     background-color: #97afa3;
+    line-height: 1.6;
+
 }
+
+ #work-experience-image {
+    height: 100%;
+    width: 40%;
+    background: url('../images/work-experience.jpg') no-repeat center center;
+    background-size: cover;
+    
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+} 
+
+#work-experience-title {
+    display: inline-block;
+    border-bottom: 2px solid;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    color: white;
+} 
+
+#right-work-experience {
+    width: 60%;
+    float: right;
+}
+
+#work-experience-text {
+    padding: 40px 20px;
+}
+
+
+#work-experience-text ul {
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+#work-experience-text li {
+    margin-bottom: 50px;
+}
+#work-experience-text  li  p:first-child {
+    margin-bottom: 10px;
+}
+
+
+
+/* abilities section */
 
 #abilities-section {
     height: 600px;
 }
+
+/* footer */
 
 footer {
     height: 200px;

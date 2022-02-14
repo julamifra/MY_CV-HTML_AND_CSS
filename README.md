@@ -40,8 +40,9 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 
 ## Deployment
+(explain how deploy the projecy and how to run it locally)
 ### Via gitpod
-### Via gitpod
+### Via github pages
 
 
 ## Credits
