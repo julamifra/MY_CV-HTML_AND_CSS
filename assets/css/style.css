@@ -328,9 +328,6 @@ hr {
     font-size: 140%;
 }
 
-.ability-card h4 {
-
-} 
 
 /* footer */
 
@@ -341,4 +338,49 @@ footer {
     margin-top: 50px;
     position: relative;
     bottom: 0;
+}
+
+.social-footer {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
+
+.social-footer > ul > li {
+    display: inline;
+}
+
+.social-footer > ul > li > a > i {
+    color: white;
+    font-size: 200%;
+    margin: 1%;
+    padding: 10% 5%;
+ }
+
+
+.contacts-footer {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-align: center;
+}
+
+.contacts-footer ul {
+    margin: 5%;
+}
+.contacts-footer li {
+    list-style-type: none;
+    margin: 1%;
+    padding: 2% 5%;
+}
+
+.contacts-footer a, .contacts-footer span {
+    color: white;
+    font-size: 150%;
+
 }
