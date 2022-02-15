@@ -315,21 +315,18 @@ hr {
     float: right;
     width: calc(50% - 40px);
     box-sizing: border-box;
-    /* margin-right: 20px; */
 }
 
 .ability-card {
     width: calc(100% - 32px);
-    /* width: 100%; */
     display: inline-block;
     border: 2px solid black;
     border-radius: 25px;
-    /* margin: 10px; */
+    margin: 10px;
     padding: 15px;
 }
 
 .ability-card ul {
-    /* list-style-type: none; */
     list-style-type: circle;
     margin-left: 30px;
     font-size: 120%;
@@ -441,7 +438,8 @@ footer a {
         font-weight: bold;
     }
     
-    #work-experience-image-mobile {
+    #work-experience-title-mobile {
+        width: calc(100% - 20%);
         margin: 20px 10%;
         border-bottom: 2px solid black;
         box-sizing: border-box;
