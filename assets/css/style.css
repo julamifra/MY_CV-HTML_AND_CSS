@@ -29,6 +29,7 @@ section a:hover, footer .social-footer a:hover {
 }
 footer .contacts-footer a:hover {
     font-size: 160%;
+
 }
 
 /* heading and logo */
@@ -410,7 +411,7 @@ footer a {
 /* form section from contac.html */
 
 
-#form-section {
+.form-confirmation-section {
     height: 700px;
     width: 100%;
     background: url("../images/image-contact.jpg") no-repeat center center;
@@ -427,6 +428,7 @@ footer a {
     left: 10%;
     padding: 30px;
 }
+
 
 .signup-form > h2 {
     color: #fafafa;
@@ -472,6 +474,30 @@ footer a {
 .button-submit:hover {
     background-color: #f16c6b;
     color: #fafafa;
+}
+
+#form-section a {
+    font-size: 100%;
+    text-decoration: none;
+}
+
+/* confirmation section */
+
+.cover-text-confirmation {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.7);
+    /* max-width: 400px; */
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 120%;
+}
+.cover-text-confirmation p:first-child {
+    font-size: 150%;
+    margin-bottom: 40px;
 }
 
 
@@ -595,6 +621,13 @@ footer a {
     #nav-bar li:nth-child(2) { order: 3; }
     #nav-bar li:nth-child(3) { order: 2; }
     #nav-bar li:nth-child(4) { order: 1; }
+
+    .cover-text-confirmation {
+        width: calc(100% - 100px);
+        font-size: 100%;
+        margin: 0 10px;
+
+    }
 }
 @media screen and (max-width: 485px) { 
     #cover-text {
