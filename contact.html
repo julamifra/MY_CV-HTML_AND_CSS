@@ -4,13 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Julian Amigo Frances currivulum vitae, CV">
+    <meta name="description" content="Julian Amigo Frances curriculum vitae, CV">
     <meta name="keywords" content="Julian Amigo Frances, CV, web developer, curriculum vitae">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Julian Amigo Frances</title>
 </head>
 <body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">J.A.F.</h1>
+        </a>
+        <nav>
+            <ul id="nav-bar">
+                <li>
+                    <a href="./contact.html" class="active">contact</a>
+                </li>
+                <li>
+                    <a href="./index.html#abilities-section">abilities</a>
+                </li>
+                <li>
+                    <a href="./index.html#work-experience-section">experience</a>
+                </li>
+                <li>
+                    <a href="./index.html#about-me-section">about me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="form-section">
+        <form method="POST" action="" class="signup-form">
+            <h2>Send me a message! <i class="fas fa-comment"></i></h2>
+            <label for="name">Full Name *</label>
+            <input id="name" class="input-form" name="name" type="text" required>
+        
+            
+            <label for="email">Email Address *</label>
+            <input type="email" name="email-address" id="email" class="input-form" required>
+            
+            <label for="message">Message *</label>
+            <textarea name="message" id="message" class="message-textarea" row="4" cols="50" required>
+            </textarea>
 
-    
+            <input class="button-submit" type="submit" value="Send">
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="social-footer">
+            <ul>
+                <li>
+                    <a href="www.linkedin.com/in/julianamigofrances"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/julamifra"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/julamifra"><i class="fab fa-github-square"></i></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="contacts-footer">
+            <ul>
+                <li>
+                    <a href="mailto:julamifra@gmail.com.com"><i class="fas fa-envelope"></i> julamifra@gmail.com</a>
+                </li>
+                <li>
+                    <span><i class="fab fa-whatsapp-square"></i> +34 630871203</span>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- fontawesome script  -->
+    <script src="https://kit.fontawesome.com/4df69ea9f8.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
