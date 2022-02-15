@@ -529,5 +529,9 @@ footer a {
         width: calc(100% - 20px);
         text-align: center;
     }
+
+    #abilities-section {
+        margin: 10px 10px;
+    }
 }
 
