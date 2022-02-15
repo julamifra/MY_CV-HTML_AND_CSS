@@ -624,6 +624,7 @@ footer a {
 
     .cover-text-confirmation {
         width: calc(100% - 100px);
+        transform: translate(-50%, -30%);
         font-size: 100%;
     }
 }
