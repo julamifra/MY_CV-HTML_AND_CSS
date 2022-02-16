@@ -6,10 +6,15 @@ Users will be able to navigate through the differents section and find out relev
 
 In addition, users will be able to get in touch with me by filling out a form located in the "Contact me" section.  
 
-## User Stories
+![Responsice Mockup](./assets/images/wireframes.JPG)
 
-- First tutoring session.
-- Finish up to "Wireframes" section, of the Readme file.
+
+## User Stories
+- As an user... I want... so that...
+
+- As a developer I want to have the first tutoring session so that I can show my mock-up and I can start with the P1
+- As a developer I want to write out in the README file and finish it, all the points so that, anybody can access to it and understand better what is the project about 
+
 - make the basic structure of the three HTML files. 
 - index.html: make and style the Header and the Navigation bar.
 - index.html: make and style "About me" Section.
@@ -31,6 +36,8 @@ In addition, users will be able to get in touch with me by filling out a form lo
 ## Typography and color scheme
 
 ## Wireframes
+
+
 
 ## Testing
 ### Code validation
