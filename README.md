@@ -10,10 +10,10 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 
 ## User Stories
-- As an user... I want... so that...
+- As an user... I want... so that I can...
 
 - As a developer I want to have the first tutoring session so that I can show my mock-up and I can start with the P1
-- As a developer I want to write out in the README file and finish it, all the points so that, anybody can access to it and understand better what is the project about 
+- As a developer I want to write all noted points down in the README file so that anyone can access to it and better understand what the project is about.
 
 - make the basic structure of the three HTML files. 
 - index.html: make and style the Header and the Navigation bar.
