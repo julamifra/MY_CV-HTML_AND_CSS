@@ -6,30 +6,33 @@ Users will be able to navigate through the differents section and find out relev
 
 In addition, users will be able to get in touch with me by filling out a form located in the "Contact me" section.  
 
-![Responsice Mockup](./assets/images/wireframes.JPG)
+![Responsice Mockup](./docs/wireframes.JPG)
 
 
 ## User Stories
-- As an user... I want... so that I can...
-
-- As a developer I want to have the first tutoring session so that I can show my mock-up and I can start with the P1
-- As a developer I want to write all noted points down in the README file so that anyone can access to it and better understand what the project is about.
-
-- make the basic structure of the three HTML files. 
-- index.html: make and style the Header and the Navigation bar.
-- index.html: make and style "About me" Section.
-- index.html: make and style "Experience" Section.
-- index.html: make and style "Abilities" Section.
-- index.html: make and style the Footer.
-- contact.html: make and style the "Form" Section.
-- confirmation.html: make and style the "Confirmation" Section.
-- Second tutoring session.
-- Do the code testing.
-- Fix found bugs.
-- Complete the remaining items of the Readme file.
-- Third and last tutoring session.
+- As an user I want to see the header and the navigation bar on the top of the website, so that I'll be able to navigate throught the different pages.
+- As an user I want to see the "About me section" so that I'll be able to see the main information about me in the online CV.
+- As an user I want to see the "Experience" section so that I'll be able to see the work experience in the CV.
+- As an user I want to see the "Abilities" section so that I'll be able to see the work abilities in the CV index.
+- As an user I want to see the footer with the contact of the person so that I'll be able to get in touch with him.
+- As an user I want to see a the "Contact" section in a new page (with the same header and footer) so that I'll be able to contact with him.
+- As an user I want to see a confirmation page when I submit the contact form, so that I'll know that it's been submitted correctly.
 
 ## Features
+
+- __Navigation Bar__
+
+    - Featured at the top of the page, on all three pages: the main page, the contact form page and the confirmation page. 
+    - In the left corner of the navigation bar the 'Julián Amigó Francés' logo (J.A.F.) is showed, that links to the top of the main page
+    - In the right of the navigation bar, the other navigation links are displayed: 'About me', 'Experience', 'Abilities' and 'Contact'. The first three move to the relevant sections of the same page, while the last one links to the contact form located on a new page.
+
+
+
+![Responsice Mockup](./docs/navigation-snipping.JPG)
+
+- __The Header__
+
+    - 
 
 ## Future features
 
