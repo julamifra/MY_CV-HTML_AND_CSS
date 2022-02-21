@@ -1,6 +1,3 @@
-/* @import url('https://fonts.googleapis.com/............'); */
-
-
 * { 
     margin: 0;
     padding: 0;
@@ -27,20 +24,18 @@ h2 {
 section a:hover, footer .social-footer a:hover {
     font-size: 105%;
 }
+
 footer .contacts-footer a:hover {
     font-size: 160%;
-
 }
 
 /* heading and logo */
-
 header {
     background-color: #97afa3;
     height: 120px;
 }
 
-
-#logo {
+.logo {
     float: left;
     font-size: 420%;
     margin: 16px 0 auto 80px;
@@ -48,20 +43,17 @@ header {
 }
 
 #nav-bar {
-    background-color: white;
-
+    background-color: #fafafa;
     float: right;
     font-size: 110%;
     letter-spacing: 3px;
-    color: black;
-    border: solid black 3px;
+    color: #000;
+    border: solid #000 3px;
     padding: 10px;
-
     position: relative;
     top: 95px;
     right: 50px;
 }
-
 
 #nav-bar li {
     float: right;
@@ -72,7 +64,6 @@ header {
 #nav-bar li:first-child {
     margin-right: 0;
 }
-
 
 #nav-bar a {
     text-decoration: none;
@@ -88,14 +79,11 @@ header {
     border-bottom: 1px solid #3a3a3a;
 }
 
-
 /* introduction me section: img and text */
-
 #introduction {
     height: 600px;
     width: 100%;
     z-index: -1;
-
     position: relative;
 }
 
@@ -103,20 +91,16 @@ header {
     height: 500px;
     width: 100%;
     background: url('../images/image-introduction.jpg') no-repeat center center;
-    
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 3s;
     position: relative;
     animation-timing-function: ease;
-    
     top: 40px;
     z-index: -1;
-
 }
 
  /* creates the level of zoom fo hero image */
-
 @keyframes hero-zoom {
     from {top: 120px;}
     to {top: 40;}
@@ -128,15 +112,12 @@ header {
     font-family: Lato, sans-serif;
     letter-spacing: 2px;
     line-height: 1.5;
-    color: white;
-
+    color: #fafafa;
     background-color: rgba(151, 175, 163, .7);
     width: 300;
     height: auto;
     text-align: center;
-
     padding: 10px;
-
     position: absolute;
     bottom: 220px;
     right: 40px;
@@ -147,13 +128,10 @@ header {
 }
 
 /* about me section */
-
 #about-me-section {
     height: 600px;
     overflow: hidden;
 }
-
-
 
 #left-about-me {
     float: left;
@@ -163,20 +141,17 @@ header {
     margin-top: 40px;
 }
 
-
 #right-studies {
     float: right;
     width: 50%;
     box-sizing: border-box;
     padding: 0 20px 0 100px;
     margin-top: 40px;
-
 }
-
 
 #left-about-me > h2, #right-studies > h2 {
     display: inline-block;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000;
 }
 
 #left-about-me p {
@@ -186,7 +161,6 @@ header {
 .primary-list {
     list-style-type: none;
     margin-top: 40px;
-
 }
 
 .primary-list > li {
@@ -195,8 +169,8 @@ header {
 
 .secondary-list {
     margin-top: 10px;
-
 }
+
 .secondary-list > li {
     margin-left: 20px;
 }
@@ -223,9 +197,7 @@ hr {
     margin: 50px auto;
 }
 
-
 /* work experience section */
-
 #work-experience-section {
     height: 600px;
     background-color: #97afa3;
@@ -238,7 +210,6 @@ hr {
     width: 40%;
     background: url('../images/work-experience.jpg') no-repeat center center;
     background-size: cover;
-    
     position: relative;
     box-sizing: border-box;
     float: left;
@@ -250,7 +221,7 @@ hr {
     position: absolute;
     top: 100px;
     left: 20%;
-    color: white;
+    color: #fafafa;
 } 
 
 #work-experience-title-mobile {
@@ -261,7 +232,6 @@ hr {
     width: 60%;
     float: right;
     height: 600px;
-
 }
 
 #work-experience-text {
@@ -275,31 +245,32 @@ hr {
     text-align: justify;
 }
 
-
 #work-experience-text ul {
     list-style-type: none;
     margin-top: 10px;
 }
+
 #work-experience-text li {
     margin-bottom: 30px;
 }
+
 #work-experience-text li p u {
-    color: white;
+    color: #fafafa;
 }
+
 #work-experience-text li p:first-child b {
     font-size: 120%;
 }
+
 #work-experience-text li a {
     font-style: italic;
 }
+
 #work-experience-text li p:first-child {
     margin-bottom: 10px;
 }
 
-
-
 /* abilities section */
-
 #abilities-section {
     height: auto;
     overflow: hidden;
@@ -330,7 +301,7 @@ hr {
 .ability-card {
     width: calc(100% - 32px);
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid #000;
     border-radius: 25px;
     margin: 10px;
     padding: 15px;
@@ -352,15 +323,11 @@ hr {
     font-size: 140%;
 }
 
-
 /* footer */
-
 footer {
     height: 200px;
     width: 100%;
     background-color: #97afa3;
-    /* position: absolute;
-    bottom: 0; */
 }
 
 .social-footer {
@@ -379,12 +346,11 @@ footer a {
 }
 
 .social-footer > ul > li > a > i {
-    color: white;
+    color: #fafafa;
     font-size: 200%;
     margin: 1%;
     padding: 10% 5%;
- }
-
+}
 
 .contacts-footer {
     float: right;
@@ -397,6 +363,7 @@ footer a {
 .contacts-footer ul {
     margin: 5%;
 }
+
 .contacts-footer li {
     list-style-type: none;
     margin: 1%;
@@ -404,13 +371,11 @@ footer a {
 }
 
 .contacts-footer a, .contacts-footer span {
-    color: white;
+    color: #fafafa;
     font-size: 150%;
 }
 
 /* form section from contac.html */
-
-
 .form-confirmation-section {
     height: 700px;
     width: 100%;
@@ -428,7 +393,6 @@ footer a {
     left: 10%;
     padding: 30px;
 }
-
 
 .signup-form > h2 {
     color: #fafafa;
@@ -466,7 +430,7 @@ footer a {
     text-align: center;
     font-size: 100%;
     background-color: #fafafa;
-    color: black;
+    color: #000;
     display: block;
     cursor: pointer;
 }
@@ -486,7 +450,6 @@ footer a {
 .cover-text-confirmation {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.7);
-    /* max-width: 400px; */
     position: absolute;
     left: 50%;
     top: 50%; 
@@ -495,16 +458,14 @@ footer a {
     text-align: center;
     font-size: 120%;
 }
+
 .cover-text-confirmation p:first-child {
     font-size: 150%;
     margin-bottom: 40px;
 }
 
-
 @media screen and (max-width: 1200px) { }
 @media screen and (max-width: 950px) { 
-
-
     #introduction, #about-me-section, #work-experience-section, #abilities-section {
         height: auto;
     }
@@ -514,17 +475,20 @@ footer a {
         bottom: 5px;
         right: 0;
     }
+
     #left-about-me, #right-studies, #left-ability-section, #right-ability-section {
         width: 100%;
         float: left;
         padding: 0;
     }
+
     #left-about-me > h2, #right-studies > h2 {
         display: inline-block;
         width: 100%;
         text-align: center;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid #000;
     }
+
     #work-experience-image {
         display: none;
     } 
@@ -543,7 +507,7 @@ footer a {
     #work-experience-title-mobile {
         width: calc(100% - 20%);
         margin: 20px 10%;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid #000;
         box-sizing: border-box;
         display: inline-block;
         text-align: center;
@@ -595,11 +559,9 @@ footer a {
         margin: 1%;
         padding: 0;
     }
-  
-
 }
 @media screen and (max-width: 900px) { 
-    #logo {
+    .logo {
         clear: both;
         font-size: 420%;
         margin: 0 auto;
@@ -632,6 +594,7 @@ footer a {
     #cover-text {
         display: none;
     }
+
     #cover-text-mobile {
         visibility: visible;
         width: calc(100% - 20px);
@@ -642,4 +605,3 @@ footer a {
         margin: 10px 10px;
     }
 }
-

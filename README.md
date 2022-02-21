@@ -25,12 +25,21 @@ In addition, users will be able to get in touch with me by filling out a form lo
     - Featured at the top of the page, on all three pages: the main page, the contact form page and the confirmation page. 
     - In the left corner of the navigation bar the 'Julián Amigó Francés' logo (J.A.F.) is showed, that links to the top of the main page
     - In the right of the navigation bar, the other navigation links are displayed: 'About me', 'Experience', 'Abilities' and 'Contact'. The first three move to the relevant sections of the same page, while the last one links to the contact form located on a new page.
+    - The color of this section is a soft green, used throughout the page, as we will see bellow.
 
 
 
-![Responsice Mockup](./docs/navigation-snipping.JPG)
+![Navigation bar](./docs/navigation-snipping.JPG)
 
 - __The Header__
+    
+    - As a background is used a set-up image, where the colours are similiar to the soft green we've already used.
+    - The header section shows my full name and my profession. It is located at the bottom left of this section. 
+    - The background color of this text is the same soft green as was mentioned for the header.
+
+![Header](./docs/header.JPG)
+
+- __About me section__
 
     - 
 
