@@ -2,7 +2,7 @@
 
 This website is designed to show my basic HTML and CSS skills by making an usefull and user-friendly website, where further information about my career is shown.
 
-Users will be able to navigate through the differents section and find out relevant information about me, my studies, work experiences, and so on.
+Users will be able to navigate through the different sections and find out relevant information about me, my studies, work experiences, and so on.
 
 In addition, users will be able to get in touch with me by filling out a form located in the "Contact me" section.  
 
@@ -23,7 +23,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
 - __Navigation Bar__
 
     - Featured at the top of the page, on all three pages: the main page, the contact form page and the confirmation page. 
-    - In the left corner of the navigation bar the 'Julián Amigó Francés' logo (J.A.F.) is showed, that links to the top of the main page
+    - In the left corner of the navigation bar the 'Julián Amigó Francés' logo (J.A.F.) is showed, that links to the top of the main page.
     - In the right of the navigation bar, the other navigation links are displayed: 'About me', 'Experience', 'Abilities' and 'Contact'. The first three move to the relevant sections of the same page, while the last one links to the contact form located on a new page.
     - The color of this section is a soft green, used throughout the page, as we will see bellow.
 
@@ -41,7 +41,52 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 - __About me section__
 
-    - 
+    - The About me section is divided in two subcolumns: 'about me' and 'studies'. It is displayed in a white background. 
+    - In the first 'About me' column a brief introduction about me is shown, giving the most relevant details about my career, experiences and life.
+    - Besides that, the 'studies' column shows the user my university degree and other important certificates or courses I've completed or are still in proccess of completing.
+
+![About me](./docs/about_me_section.JPG)
+
+
+- __Work experience__
+
+   - This section shows more deeply detailed information about my work experience. For each work experience mentioned, the years worked on it, the company and the relevant aspects of job position are indicated.
+   - It is divided in two columns. The first columns is only for the title of the section, displayed with a background image.
+   - The second column is displayed on a green background and all the information mentioned above is shown.
+
+![Work experience](./docs/work_experience_section.JPG)
+
+- __Abilities__
+
+    - This Abilities section, displayed on a white background, collects three differents subsections, each covered by a box.
+    - The first box gives "Further software and Technology skills" that I've worked with.
+    - The second box, shown on a soft orange background, gives "Other interests" information, such as other technologies that can be mentioned or voluntary work I've done.
+    - In the last box, displayed on a soft green background, the spoken languages I feel comfortable with are mentioned.
+
+![Abilities section](./docs/abilities_section.JPG)
+
+- __Contact__
+
+    - This contact section is located in another page. By clicking on the contact link that is the last link in the navigation bar, you can navigate to this page.
+    - In here, the user can get in touch with me, by filling in the form with all the required inputs.
+    - There is just one section in this page, and the form is on a background image. Three inputs are mandatory in order to submit and get in touch with me: Full name, email and message.
+
+
+![Contact section](./docs/contact_section.JPG)
+
+- __Confirmation section__
+
+    - Once you have clicked on the submit button, you will be redirected to another page, where a confirmation message will be shown in order to let you know that the form has been successfully sent.
+
+![Confirmation section](./docs/confirmation_section.JPG)
+
+- __Footer__
+
+    - This footer section is displayed on a soft green background.
+    - It is divided in two columns, where the different ways of get in touch with me
+
+![Footer](./docs/footer_section.JPG)
+
 
 ## Future features
 
