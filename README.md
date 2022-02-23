@@ -83,12 +83,17 @@ In addition, users will be able to get in touch with me by filling out a form lo
 - __Footer__
 
     - This footer section is displayed on a soft green background.
-    - It is divided in two columns, where the different ways of get in touch with me
+    - It is divided in two columns, where different ways of get in touch with me are given.
+    - In the first column three link icons are positioned in the left side, and will redirect to each social media ny clicking on them. 
+    - In the second colum my contact information is given, such as my email and phone number.
 
 ![Footer](./docs/footer_section.JPG)
 
 
 ## Future features
+
+- One posible future future might be to give real functionaly to the get-in-touch form by setting up a javascript functionality in it.
+- Another usefull functionality might be to change the navigation bar in mobile design, creating a drop-down menu, for example.
 
 ## Typography and color scheme
 
