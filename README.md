@@ -8,6 +8,18 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ![Responsice Mockup](./docs/wireframes.JPG)
 
+# Table of Contents
+
+- [User Stories](#user-stories)
+- [Features](#features)
+- [Future features](#future-features)
+- [Typography and color scheme](#typography-and-color-scheme)
+- [Wireframes](#wireframes)
+- [Technologies](#technologies)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
 
 ## User Stories
 - As an user I want to see the header and the navigation bar on the top of the website, so that I'll be able to navigate throught the different pages.
@@ -112,6 +124,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ## Wireframes
 
+
 - [Balsamiq Wireframes](https://balsamiq.com/) has been the tool used to generate the digital sketches of the initial website idea. 
 - Below the sketch of the inital idea is shown. Some detail has been modified as the project progressed, such as the header image or the distribution of some content, in order to fit the text to the distribution of the elements.
 
@@ -126,12 +139,14 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ## Technologies
 
+
 - HTML and CSS: 
     - **HTML** is the standard markup language for Web pages.
     - **CSS** is the language we use to style and HTML document.
     - Both programing languages are the main technologies used in this project in order to create the webpage. 
-- GitHub Pages: it is a static site hosting service. It take the code from a Github reposiroty and publishes a website. It will be explained in further detail in the [Deployment](##Deployment) section.
+- GitHub Pages: it is a static site hosting service. It take the code from a Github reposiroty and publishes a website. It will be explained in further detail in the [Deployment](#Deployment) section.
 - GitPod: this tool has been chosen as the IDE of this project. It is a cloud development environment accessible via a browser, that can be run directly from the github repository.
+
 
 ## Testing
 ### Code validation
