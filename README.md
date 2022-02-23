@@ -124,6 +124,15 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 
 
+## Technologies
+
+- HTML and CSS: 
+    - **HTML** is the standard markup language for Web pages.
+    - **CSS** is the language we use to style and HTML document.
+    - Both programing languages are the main technologies used in this project in order to create the webpage. 
+- GitHub Pages: it is a static site hosting service. It take the code from a Github reposiroty and publishes a website. It will be explained in further detail in the [Deployment](##Deployment) section.
+- GitPod: this tool has been chosen as the IDE of this project. It is a cloud development environment accessible via a browser, that can be run directly from the github repository.
+
 ## Testing
 ### Code validation
 ### Test cases 
