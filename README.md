@@ -97,7 +97,30 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ## Typography and color scheme
 
+- __Typography__
+
+    - "Source Sans Pro" from [Google Fonts] has been chosen as the main font for the entire website.
+    - This font has been tested for all screen sizes and fit well to each of them. 
+    - It gives a profesional and modern look to the webpage, which is what an online CV needs.
+
+
+- __Color Scheme__
+
+    - In order to pick the accurate color that better fit with the website, I've used [Color Adobe](https://color.adobe.com). Here I could generate a color palette and get all the necessary Hexadecimal Colors. 
+    - I wanted to give my website a calming feel and profesionality, by selecting soft, muted colours and choosing images related to office enviroment.
+    - Therefore, the soft green, which is used in most of the above-mentioned section, is the main colour chosen for the website, which is displayed throughout. 
+
 ## Wireframes
+
+- [Balsamiq Wireframes](https://balsamiq.com/) has been the tool used to generate the digital sketches of the initial website idea. 
+- Below the sketch of the inital idea is shown. Some detail has been modified as the project progressed, such as the header image or the distribution of some content, in order to fit the text to the distribution of the elements.
+
+![Wireframe_1](./docs/wireframe_1.JPG)
+![Wireframe_2](./docs/wireframe_2.JPG)
+![Wireframe_3](./docs/wireframe_3.JPG)
+![Wireframe_4](./docs/wireframe_4.JPG)
+![Wireframe_5](./docs/wireframe_5.JPG)
+![Wireframe_6](./docs/wireframe_6.JPG)
 
 
 
