@@ -149,10 +149,25 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 
 ## Testing
+
+    
 ### Code validation
-### Test cases 
-### Fixed bugs
+
+(do the HTML and CSS validator tests in this section)
+
+### Test cases and fixed bugs
+
+- Tests have been done to each user story as well and in here, only few bugs have been found. For example, two of the links within the footer section, on the confirmation page, redirected to a 404-not-found page. Another bug found was that the initial textarea value, on the contact form, was a blank space, so the form could be submitted with the "message" input empty 
+
+-  In addition, some relevants bugs that I came across in these test mentioned above are the following:
+    - Some of the element widths were bad styled on mobile design. To fixed it, it has been calculated with the function "calc()".
+    - Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "<nav>" tag in the css.
+
 ### Supported screens and browsers
+
+- The website was tested on the most common screen sizes. The sizes where possible erros could appeared were: 1200px, 900px and for mobile sizes (down 480px). For this reason, three different styles have been set for these three cases.
+
+- The browsers where the website has been tested are Firefox and Google Chrome. In the case of the former, the tests have only carried out for desktop size. For the latter, tests for mobile and desktop sizes have been done. 
 
 
 ## Deployment
