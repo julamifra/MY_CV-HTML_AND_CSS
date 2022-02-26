@@ -22,13 +22,13 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 
 ## User Stories
-- As an user I want to see the header and the navigation bar on the top of the website, so that I'll be able to navigate throught the different pages.
-- As an user I want to see the "About me section" so that I'll be able to see the main information about me in the online CV.
-- As an user I want to see the "Experience" section so that I'll be able to see the work experience in the CV.
-- As an user I want to see the "Abilities" section so that I'll be able to see the work abilities in the CV index.
-- As an user I want to see the footer with the contact of the person so that I'll be able to get in touch with him.
-- As an user I want to see a the "Contact" section in a new page (with the same header and footer) so that I'll be able to contact with him.
-- As an user I want to see a confirmation page when I submit the contact form, so that I'll know that it's been submitted correctly.
+1) As an user I want to see the header and the navigation bar on the top of the website, so that I'll be able to navigate throught the different pages.
+2) As an user I want to see the "About me section" so that I'll be able to see the main information about me in the online CV.
+3) As an user I want to see the "Experience" section so that I'll be able to see the work experience in the CV.
+4) As an user I want to see the "Abilities" section so that I'll be able to see the work abilities in the CV index.
+5) As an user I want to see the footer with the contact of the person so that I'll be able to get in touch with him.
+6) As an user I want to see a the "Contact" section in a new page (with the same header and footer) so that I'll be able to contact with him.
+7) As an user I want to see a confirmation page when I submit the contact form, so that I'll know that it's been submitted correctly.
 
 ## Features
 
@@ -150,18 +150,27 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ## Testing
 
+### Test cases and fixed bugs
+
+- Tests have been done to each user story as well and in here, only few bugs have been found. These bugs are the following:
+    - User story number 1: Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "<nav>" tag in the css.
+
+    - User story number 3: some of the element widths were bad styled on mobile design. To fixed it, the element width has been calculated with the function "calc()".
+
+    - User story number 5: two of the links within the footer section, on the confirmation page, redirected to a 404-not-found page. This bug has been fixed by setting the correct URL for those <a> elements that redirected to the wrong page.
+    
+    - User story number 6: on the contact form another bug was found related to the initial textarea value. It was a blank space, so the form could be submitted with an imput "message" input. To fix it, some blank spaces have been removed from the HTML within contact.html file.
     
 ### Code validation
 
-(do the HTML and CSS validator tests in this section)
+- __HTML__: Some errors ocurred after auditing every page with the official HTML validator: [HTML Validator](https://validator.w3.org/).
+    - Errors found on the index.html:
+    ![index.html errors](./docs/html_validator_1.JPG)
+    - Errors found on the contact.html:
+    ![contact.html errors](./docs/html_validator_2.JPG)
+    - Errors found on the confirmation.html:
+    ![confirmation.html errors](./docs/html_validator_3.JPG)
 
-### Test cases and fixed bugs
-
-- Tests have been done to each user story as well and in here, only few bugs have been found. For example, two of the links within the footer section, on the confirmation page, redirected to a 404-not-found page. Another bug found was that the initial textarea value, on the contact form, was a blank space, so the form could be submitted with the "message" input empty 
-
--  In addition, some relevants bugs that I came across in these test mentioned above are the following:
-    - Some of the element widths were bad styled on mobile design. To fixed it, it has been calculated with the function "calc()".
-    - Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "<nav>" tag in the css.
 
 ### Supported screens and browsers
 
