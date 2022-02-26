@@ -175,6 +175,17 @@ All these bugs have been detected and fixed after the HTML validator testing, as
 
 - __CSS:__ No errors ocurred after auditing the style sheet with the CSS validator: [CSS Validator](https://www.cssportal.com/css-validator/).
 
+### Lighthouse - Dev Tools
+
+- I have used Lighthouse from Google Chrome DevTools, to test my website performance and accesibility. The first testing scored 84%, as some audit failed. 
+![first lighthouse reporter](./docs/lighthouse_desktop_1.JPG)
+
+- Color contrast was one of them, and to improve this failure, some white texts (with a green background) have been modified to black. [Color Contrast recommendations](https://web.dev/color-contrast/?utm_source=lighthouse&utm_medium=devtools)
+- In addition, it was also recommended to add a discernible name to the footer links. [Links recommendations](https://web.dev/link-name/?utm_source=lighthouse&utm_medium=devtools)
+
+- Therefore, by fixing this found bugs the new lighthouse score is as follows:
+![first lighthouse reporter](./docs/lighthouse_2_desktop.JPG)
+
 
 ### Supported screens and browsers
 
@@ -184,11 +195,19 @@ All these bugs have been detected and fixed after the HTML validator testing, as
 
 
 ## Deployment
-(explain how deploy the projecy and how to run it locally)
-### Via gitpod
-### Via github pages
+
+The website was deployed to GitHub pages. These are the steps to deploy it:
+- Navigating to the GitHub repository settings tab, you will find the "Pages" tab.
+- In this tab, choosing the main branch of the site and saving the changes it is enough to deploy.
+- Once it has deployed (it could take 5-10 minutes) the site would be available on the URL shown in this "pages" tab. 
+- The deployed URL for this project is the following: [Deployed URL](https://julamifra.github.io/MY_CV-HTML_AND_CSS/).
 
 
 ## Credits
+
+I like to thank my tutor, Rohit, for all the recommendations he has given me. 
+
 ### Content
+
+
 ### Media
