@@ -40,7 +40,7 @@ header {
     float: left;
     font-size: 420%;
     margin: 16px 0 auto 80px;
-    color: #fafafa;
+    color: #3e3e3e;
 }
 
 #nav-bar {
@@ -108,7 +108,7 @@ header {
 }
 
 #cover-text, #cover-text-mobile {
-    font-size: 140%;
+    font-size: 80%;
     font-weight: 900;
     font-family: Lato, sans-serif;
     letter-spacing: 2px;
@@ -256,7 +256,10 @@ hr {
 }
 
 #work-experience-text li p u {
-    color: #fafafa;
+    color: #3e3e3e;
+}
+#work-experience-text li p a {
+    color: #470000;
 }
 
 #work-experience-text li p:first-child b {
@@ -323,6 +326,11 @@ hr {
     margin: 15px;
     font-size: 140%;
 }
+.ability-card p {
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: 0;
+}
 
 /* footer */
 footer {
@@ -344,13 +352,16 @@ footer a {
 
 .social-footer > ul > li {
     display: inline;
+    padding: 0 5%;
+}
+.social-footer > ul > li > a {
+    color: #3e3e3e;
 }
 
 .social-footer > ul > li > a > i {
-    color: #fafafa;
     font-size: 200%;
     margin: 1%;
-    padding: 10% 5%;
+    padding: 10% 0;
 }
 
 .contacts-footer {
@@ -372,7 +383,7 @@ footer a {
 }
 
 .contacts-footer a, .contacts-footer span {
-    color: #fafafa;
+    color: #3e3e3e;
     font-size: 150%;
 }
 

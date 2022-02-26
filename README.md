@@ -163,13 +163,17 @@ In addition, users will be able to get in touch with me by filling out a form lo
     
 ### Code validation
 
-- __HTML__: Some errors ocurred after auditing every page with the official HTML validator: [HTML Validator](https://validator.w3.org/).
+- __HTML:__ Some errors ocurred after auditing every page with the official HTML validator: [HTML Validator](https://validator.w3.org/).
     - Errors found on the index.html:
     ![index.html errors](./docs/html_validator_1.JPG)
     - Errors found on the contact.html:
     ![contact.html errors](./docs/html_validator_2.JPG)
     - Errors found on the confirmation.html:
     ![confirmation.html errors](./docs/html_validator_3.JPG)
+
+All these bugs have been detected and fixed after the HTML validator testing, as were undetectable while testing the user stories. 
+
+- __CSS:__ No errors ocurred after auditing the style sheet with the CSS validator: [CSS Validator](https://www.cssportal.com/css-validator/).
 
 
 ### Supported screens and browsers
