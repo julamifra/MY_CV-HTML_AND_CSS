@@ -207,7 +207,8 @@ The website was deployed to GitHub pages. These are the steps to deploy it:
 
 I like to thank my tutor, Rohit, for all the recommendations he has given me. 
 
-### Content
+### Content and Media
 
+- Some HTML and CSS tips have been taken from [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/).
 
-### Media
+- In addition, some ideas for the website were taken from [Zyro Blog](https://zyro.com/blog/resume-website-examples/)
