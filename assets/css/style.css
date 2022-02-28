@@ -616,4 +616,12 @@ footer a {
     #abilities-section {
         margin: 10px 10px;
     }
+
+    .social-footer > ul > li {
+        padding: 0 2%;
+    }
+
+    .contacts-footer {
+        margin-top: 20px;
+    }
 }
