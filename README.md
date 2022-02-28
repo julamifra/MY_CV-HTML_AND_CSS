@@ -216,7 +216,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 All these bugs have been detected and fixed after the HTML validator testing, as were undetectable while testing the user stories. 
 
-- __CSS:__ No errors ocurred after auditing the style sheet with the CSS validator: [CSS Validator](https://www.cssportal.com/css-validator/).
+- __CSS:__ No errors ocurred after auditing the style sheet with the CSS validator: [CSS Validator](https://www.cssportal.com/css-validator/). I used this validator due to this other CSS validator [jigsaw](https://jigsaw.w3.org/css-validator/) responded with "503 Service Unavailable" when trying to access.
 
 ### Lighthouse - Dev Tools
 
