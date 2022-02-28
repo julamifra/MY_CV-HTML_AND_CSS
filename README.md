@@ -152,14 +152,57 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ### Test cases and fixed bugs
 
-- Tests have been done to each user story as well and in here, only few bugs have been found. These bugs are the following:
-    - User story number 1: Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "nav" tag in the css.
+- Tests have been done to each user story as well and, in here, only few bugs have been found. The tests that have been done and the bugs found are the following:
+    - User story number 1: 
+        - The background color must be green and the logo (J.A.F.) must be displayed to the left side of the header.
+        - The navigation bar  must be to the right, in the middle of the green background and the white space between the image and the header.
+        - This nav.bar must have a black border and white background with 4 sections inside: About me, experiences, abilities and contact me. 
+        - The three first sections have to redirect to each section on the same page.
+        - The last section (contact me) must redirect to a new page.
+        - The image below must have a text, occupy the entire screen in width, be displayed at the bottom right, with a green background.
 
-    - User story number 3: some of the element widths were bad styled on mobile design. To fixed it, the element width has been calculated with the function "calc()".
+        -> **Bugs found:** Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "nav" tag in the css.
 
-    - User story number 5: two of the links within the footer section, on the confirmation page, redirected to a 404-not-found page. This bug has been fixed by setting the correct URL for those <a> elements that redirected to the wrong page.
+    - User story number 2:
+        - This section must be divided in two columns: the first column shows the "about me" information and the second shows the "studies" information.
+        - The background on this section must be white.
+        - The "studies" section have two links and they must redirect to an external page.
+
+        -> No bugs were found. 
+        
+    - User story number 3:
+        - This section must have two parts.
+        - One part on the left side, with an image as background and the white title of the section at the top.
+        - Another part on the right, with all the information about the work experience, displayed on a green background and with the text in black.
+        - All the links shown at this right part must redirect to an external page.
     
-    - User story number 6: on the contact form another bug was found related to the initial textarea value. It was a blank space, so the form could be submitted with an empty "message" input. To fix it, some blank spaces have been removed from the HTML within contact.html file.
+        -> **Bugs found:** Some of the element widths were bad styled on mobile design. To fixed it, the element width has been calculated with the function "calc()".
+    
+    - User story number 4:
+        - In the "Abilities" section 3 cards must be shown. One on the left side and two on the right side, one underneath the other.
+        - On the left side, "Further Software and Technology skills" card must be seen, with a soft blue branckground. Within this card, four subsection must appeared with a list on each.
+        - On the right side, "Other Interests" and "Languages" cards must be shown, one underneath the other one, the former with a soft orange background and the latter with a soft green background.
+        - Each of this two cards on the right, must have a list on it.
+
+    - User story number 5:
+        - The footer should have a green background.
+        - On the left side, three social media icons are shown  inline, 
+        - On the right side it is shown the email address and the phone number, one below the other, and each must have a corresponding icon.
+
+        -> **Bugs found:** two of the links within the footer section, on the confirmation page, redirected to a 404-not-found page. This bug has been fixed by setting the correct URL for those "a" elements that redirected to the wrong page.
+    
+    - User story number 6:
+        - The "Contact" section, located on a new page must show a form on the left side of.
+        - This form is displayed on a background image and it contains thre inpust: Full name, email address and message.
+        - No form must be sent if any input is missing.
+        - The address input must be an valid email address, otherwise a warning message will be displayed.
+        - When the form is fully filled in, it must redirect to a new page.
+    
+        -> **Bugs found:** a bug was found related to the initial textarea value. It was a blank space, so the form could be submitted with an empty "message" input. To fix it, some blank spaces have been removed from the HTML within contact.html file.
+
+    - User story number 7:
+        - This "confirmation" section must show a confirmation message to the user.
+        - It is displayed in the center of the screen and is on a dark semi-transparent background.
     
 ### Code validation
 
