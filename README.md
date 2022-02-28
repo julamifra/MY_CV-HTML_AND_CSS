@@ -37,7 +37,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
     - Featured at the top of the page, on all three pages: the main page, the contact form page and the confirmation page. 
     - In the left corner of the navigation bar the 'Julián Amigó Francés' logo (J.A.F.) is showed, that links to the top of the main page.
     - In the right of the navigation bar, the other navigation links are displayed: 'About me', 'Experience', 'Abilities' and 'Contact'. The first three move to the relevant sections of the same page, while the last one links to the contact form located on a new page.
-    - The color of this section is a soft green, used throughout the page, as we will see bellow.
+    - The color of this section is a soft green, used throughout the page, as we will see below.
 
 
 
@@ -104,14 +104,14 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 ## Future features
 
-- One posible future future might be to give real functionaly to the get-in-touch form by setting up a javascript functionality in it.
+- One posible future feature might be to give real functionaly to the get-in-touch form by setting up a javascript functionality in it.
 - Another usefull functionality might be to change the navigation bar in mobile design, creating a drop-down menu, for example.
 
 ## Typography and color scheme
 
 - __Typography__
 
-    - "Source Sans Pro" from [Google Fonts] has been chosen as the main font for the entire website.
+    - "Source Sans Pro" from [Google Fonts](https://fonts.google.com/) has been chosen as the main font for the entire website.
     - This font has been tested for all screen sizes and fit well to each of them. 
     - It gives a profesional and modern look to the webpage, which is what an online CV needs.
 
@@ -153,13 +153,13 @@ In addition, users will be able to get in touch with me by filling out a form lo
 ### Test cases and fixed bugs
 
 - Tests have been done to each user story as well and in here, only few bugs have been found. These bugs are the following:
-    - User story number 1: Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "<nav>" tag in the css.
+    - User story number 1: Half of the navigation bar was behind the main header image. To fix this, a z-index attribute has been set on the "nav" tag in the css.
 
     - User story number 3: some of the element widths were bad styled on mobile design. To fixed it, the element width has been calculated with the function "calc()".
 
     - User story number 5: two of the links within the footer section, on the confirmation page, redirected to a 404-not-found page. This bug has been fixed by setting the correct URL for those <a> elements that redirected to the wrong page.
     
-    - User story number 6: on the contact form another bug was found related to the initial textarea value. It was a blank space, so the form could be submitted with an imput "message" input. To fix it, some blank spaces have been removed from the HTML within contact.html file.
+    - User story number 6: on the contact form another bug was found related to the initial textarea value. It was a blank space, so the form could be submitted with an empty "message" input. To fix it, some blank spaces have been removed from the HTML within contact.html file.
     
 ### Code validation
 
