@@ -41,7 +41,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
 
 
 
-![Navigation bar](./docs/navigation-snipping.JPG)
+![Navigation bar](./docs/header_new.JPG)
 
 - __The Header__
     
@@ -66,7 +66,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
    - It is divided in two columns. The first columns is only for the title of the section, displayed with a background image.
    - The second column is displayed on a green background and all the information mentioned above is shown.
 
-![Work experience](./docs/work_experience_section.JPG)
+![Work experience](./docs/work_experience_section_new.JPG)
 
 - __Abilities__
 
@@ -99,7 +99,7 @@ In addition, users will be able to get in touch with me by filling out a form lo
     - In the first column three link icons are positioned in the left side, and will redirect to each social media ny clicking on them. 
     - In the second colum my contact information is given, such as my email and phone number.
 
-![Footer](./docs/footer_section.JPG)
+![Footer](./docs/footer_section_new.JPG)
 
 
 ## Future features
