@@ -10,7 +10,8 @@ body {
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.5;
-    color: #3a3a3a;
+    color: white;
+    background-color: rgb(32, 32, 35)
 }
 
 h2 {
@@ -153,7 +154,7 @@ header {
 
 #left-about-me > h2, #right-studies > h2 {
     display: inline-block;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid white;
 }
 
 #left-about-me p {
@@ -167,6 +168,10 @@ header {
 
 .primary-list > li {
     margin-bottom: 20px;
+}
+
+.primary-list > li a {
+    color: #a8a8a8;
 }
 
 .secondary-list {
@@ -194,7 +199,7 @@ header {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid white;
     width: 70%;
     margin: 50px auto;
 }
@@ -285,6 +290,7 @@ hr {
 #abilities-section h2 {
     display: inline-block;
     border-bottom: 2px solid;
+    color: white;
 }
 
 #ability-box {
@@ -500,7 +506,7 @@ footer a {
         display: inline-block;
         width: 100%;
         text-align: center;
-        border-bottom: 2px solid #000;
+        border-bottom: 2px solid white;
     }
 
     #work-experience-image {
