@@ -285,6 +285,7 @@ hr {
 #abilities-section {
     height: auto;
     overflow: hidden;
+    color: black;
 }
 
 #abilities-section h2 {
