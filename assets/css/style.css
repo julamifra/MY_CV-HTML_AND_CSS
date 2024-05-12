@@ -39,7 +39,7 @@ header {
 .logo {
     float: left;
     font-size: 300%;
-    margin: 16px 0 auto 80px;
+    margin: 16px 10%;
     color: #3e3e3e;
 }
 
@@ -577,7 +577,7 @@ footer a {
     .logo {
         clear: both;
         font-size: 200%;
-        margin: 0 auto;
+        margin: 20px auto;
         width: 100%;
         text-align: center;
     }
