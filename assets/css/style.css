@@ -258,7 +258,7 @@ hr {
 }
 
 #work-experience-text li p u {
-    color: #3e3e3e;
+    color: #a8a8a8;
 }
 #work-experience-text li p a {
     color: #a8a8a8;
@@ -531,7 +531,7 @@ footer a {
         width: 100%;
         float: left;
         height: auto;
-        background-color: #97afa3;
+        background-color: rgb(32, 32, 35);
     }
 
     #abilities-section h2 {
