@@ -32,7 +32,7 @@ footer .contacts-footer a:hover {
 
 /* heading and logo */
 header {
-    background-color: #97afa3;
+    background-color: rgb(32, 32, 35);
     height: 120px;
 }
 
@@ -40,7 +40,7 @@ header {
     float: left;
     font-size: 300%;
     margin: 16px 10%;
-    color: #3e3e3e;
+    color: white;
 }
 
 #nav-bar {
@@ -115,7 +115,7 @@ header {
     letter-spacing: 2px;
     line-height: 1.5;
     color: #fafafa;
-    background-color: rgba(151, 175, 163, .7);
+    background-color: rgba(32, 32, 35, 0.7);
     width: 300;
     height: auto;
     text-align: center;
@@ -202,7 +202,8 @@ hr {
 /* work experience section */
 #work-experience-section {
     height: 600px;
-    background-color: #97afa3;
+    background-color: rgb(32, 32, 35);
+    color: #c7c7c7;
     line-height: 1.6;
     overflow: hidden;
 }
@@ -260,7 +261,7 @@ hr {
     color: #3e3e3e;
 }
 #work-experience-text li p a {
-    color: #470000;
+    color: #a8a8a8;
 }
 
 #work-experience-text li p:first-child b {
@@ -337,7 +338,7 @@ hr {
 footer {
     height: 200px;
     width: 100%;
-    background-color: #97afa3;
+    background-color: rgb(32, 32, 35);
 }
 
 .social-footer {
@@ -356,7 +357,7 @@ footer a {
     padding: 0 5%;
 }
 .social-footer > ul > li > a {
-    color: #3e3e3e;
+    color: white;
 }
 
 .social-footer > ul > li > a > i {
@@ -384,7 +385,7 @@ footer a {
 }
 
 .contacts-footer a, .contacts-footer span {
-    color: #3e3e3e;
+    color: white;
     font-size: 150%;
 }
 
