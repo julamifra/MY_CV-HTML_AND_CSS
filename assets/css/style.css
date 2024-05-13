@@ -189,13 +189,13 @@ header {
 .primary-list > li:first-child:before {    
     font-family: 'FontAwesome';
     content: '\f19d';
-    margin:0 5px 0 -15px;
+    /* margin:0 5px 0 -15px; */
 }
 
 .primary-list > li:last-child:before {    
     font-family: 'FontAwesome';
     content: '\f121';
-    margin:0 5px 0 -15px;
+    /* margin:0 5px 0 -15px; */
 }
 
 hr {
@@ -496,6 +496,11 @@ footer a {
  }
 @media screen and (max-width: 1200px) { }
 @media screen and (max-width: 950px) { 
+
+    .container {
+        margin: 10px 0;
+    }
+
     #introduction, #about-me-section, #work-experience-section, #abilities-section {
         height: auto;
     }
@@ -505,6 +510,7 @@ footer a {
         bottom: 5px;
         right: 0;
     }
+
 
     #left-about-me, #right-studies, #left-ability-section, #right-ability-section {
         width: 100%;
@@ -569,6 +575,7 @@ footer a {
 
     footer {
         padding-top: 40px;
+        margin: 0;
     }
 
     .social-footer, .contacts-footer {
