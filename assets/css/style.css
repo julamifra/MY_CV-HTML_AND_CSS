@@ -19,7 +19,7 @@ h2 {
 }
 
 .container {
-    margin: 10px 10%;
+    margin: 10px 20%;
     padding: 10px 20px;
 }
 
@@ -27,9 +27,9 @@ section a:hover, footer .social-footer a:hover {
     font-size: 105%;
 }
 
-footer .contacts-footer a:hover {
+/* footer .contacts-footer a:hover {
     font-size: 160%;
-}
+} */
 
 /* heading and logo */
 header {
@@ -40,7 +40,7 @@ header {
 .logo {
     float: left;
     font-size: 300%;
-    margin: 16px 10%;
+    margin: 16px 20%;
     color: white;
 }
 
@@ -55,7 +55,7 @@ header {
     padding: 10px;
     position: relative;
     top: 95px;
-    right: 50px;
+    right: 20%;
 }
 
 #nav-bar li {
@@ -123,7 +123,7 @@ header {
     padding: 10px;
     position: absolute;
     bottom: 220px;
-    right: 40px;
+    right: 20%;
 }
 
 #cover-text-mobile {
@@ -344,7 +344,8 @@ hr {
 /* footer */
 footer {
     height: 200px;
-    width: 100%;
+    /* width: 100%; */
+    margin: 0 20%;
     background-color: rgb(32, 32, 35);
 }
 
@@ -393,7 +394,7 @@ footer a {
 
 .contacts-footer a, .contacts-footer span {
     color: white;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 /* form section from contac.html */
@@ -485,6 +486,14 @@ footer a {
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 1575) {
+    .social-footer > ul > li {
+        display: inline;
+    }
+    #nav-bar {
+        top: 0;
+    }
+ }
 @media screen and (max-width: 1200px) { }
 @media screen and (max-width: 950px) { 
     #introduction, #about-me-section, #work-experience-section, #abilities-section {
@@ -568,7 +577,7 @@ footer a {
     }
     
     .social-footer > ul > li > a > i {
-        font-size: 150%;
+        font-size: 100%;
         margin: 1%;
         padding: 0;
     }
